@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !^/cooking/resources/.*$
+    RewriteCond %{REQUEST_URI} !^/cooking/lib/.*$
+    RewriteCond %{REQUEST_URI} !^/cooking/favicon\.ico$
+    RewriteRule  ^ index.php
+</IfModule>

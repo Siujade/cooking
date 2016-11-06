@@ -1,0 +1,285 @@
+@font-face {
+    font-family: NavFont;
+    src: url(../fonts/42855.ttf);
+}
+
+
+body, html, ul, a, li {
+    margin: 0;
+    padding: 0;
+    background-image: url('http://www.ozwallpaper.com/wp-content/uploads/2016/02/Cute-Floral-Backgrounds-For-Tumblr.jpg')
+
+}
+header{
+    margin: 0;
+    height: 300px;
+}
+
+nav li {
+    list-style: none;
+}
+
+main form {
+    font-size: 20px;
+    margin: 80px auto;
+    padding: 5px;
+    width: 600px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main form input[type='text'] {
+    margin: 2% 0 0 12%;
+    font-size: inherit;
+    border: 1px solid black;
+    width: 250px;
+    opacity: 0.5;
+    border-radius: 5px;
+
+}
+
+#pass {
+    margin: 2% 0 0 7.5%;
+    font-size: inherit;
+    border: 1px solid black;
+    width: 250px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.rage {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 7px;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+#logo {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid seashell;
+    box-sizing: border-box;
+}
+
+textarea {
+    font-size: inherit;
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+    display: block;
+    margin: 10px auto;
+}
+
+article h2 {
+    text-align: center;
+    padding: 0;
+    margin: 5px 0 10px 0;
+}
+
+article fieldset{
+    border-radius: 5px;
+    border:2px solid wheat;
+}
+
+article .article-title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+/*Main menu*/
+nav {
+    margin: 10px auto;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 2px solid seashell;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#main-nav > li {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 80px;
+    text-align: center;
+    font-family: NavFont, monospace;
+    font-size: 50px;
+    padding: 0px 90px 0 40px;
+    border: 1px solid black;
+}
+
+/*#main-nav > li:last-child:hover li{*/
+/*width: 170px;*/
+/*border: 6px solid honeydew;*/
+/*}*/
+
+#main-nav > li:hover {
+    font-size: 50px;
+    text-decoration: underline;
+    cursor: pointer;
+    position: relative;
+    width: 80px;
+
+
+}
+
+#main-nav li:hover {
+    padding-top: 0;
+}
+
+.drop-menu li:hover {
+    font-size: 40px;
+}
+
+nav ul ul {
+    display: none;
+}
+
+a {
+    color: black;
+}
+
+nav ul li:hover > .drop-menu {
+    display: block;
+    position: absolute;
+    top: 60px;
+    font-size: 30px;
+    border: 1px solid black;
+    margin: 0 -42px;
+    padding: 0px;
+    width: 212px;
+}
+
+#main-nav > li:last-child:hover ul {
+    width: 212px;
+}
+
+input {
+    background: #EEE3CF;
+    border: 0;
+    width: 100%;
+    outline: 0;
+
+}
+
+ul input[placeholder] {
+    font-family: NavFont, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+#login {
+    width: 200px;
+    margin-left: 60px;
+}
+
+.drop-menu {
+    color: black;
+}
+
+article {
+    padding: 15px;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 900px;
+    overflow: auto;
+    min-height: 300px;
+}
+
+article img {
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+article p {
+    display: inline;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 200px;
+}
+
+/*editor*/
+#editor label input[type="url"] {
+    margin: 20px 10px 30px 10px;
+    font-size: 20px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+#editor label input[type="color"] {
+    width: 50px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#editor button {
+    margin: 10% 0 5% 30%;
+    font-size: 22px;
+    height: 50px;
+    background: 0;
+    width: 200px;
+}
+
+#editor button:hover {
+    cursor: pointer;
+    color: royalblue;
+}
+
+#editor label input[type="file"] {
+    width: 300px;
+}
+
+#editor legend {
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+}
+
+.delete{
+    float:right;
+}
+
+.clickable:hover{
+    cursor:pointer;
+}
+
+.delete-article{
+    float:right;
+}
+
+.comment{
+    height:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
